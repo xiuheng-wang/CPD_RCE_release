@@ -1,0 +1,7 @@
+matplotlib==3.10.3
+numpy==2.2.6
+pymanopt==2.2.1
+scipy==1.15.3
+sphfile==1.0.3
+torch==2.5.1
+tqdm==4.66.5

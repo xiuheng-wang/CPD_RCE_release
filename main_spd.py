@@ -91,7 +91,10 @@ N_th = 1000
 fig = plt.figure(figsize = (3.2, 3.0), dpi = 150)
 for index in range(len(names)):
     arl, mdd = comp_arl_mdd(stats[index], Tc, N_th, start_point)
-    plt.plot(arl, mdd, color=colors[index], label=names[index])
+    if index == 0:
+        plt.plot(arl, mdd, color=colors[index], label=names[index], linestyle='dashed')
+    else: 
+        plt.plot(arl, mdd, color=colors[index], label=names[index])
 plt.xlim(0, 250)
 plt.ylim(0, 5)
 y_major_locator = MultipleLocator(1)
