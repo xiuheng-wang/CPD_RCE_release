@@ -1,6 +1,6 @@
 # Riemannian Change Point Detection on Manifolds with Robust Centroid Estimation
 
-In this repository you can find the code to reproduce the results of the paper "Riemannian Change Point Detection on Manifolds with Robust Centroid Estimation".
+In this repository you can find the code to reproduce the results of the paper <a href="https://www.cedric-richard.fr/Articles/wang2025riemannian2.pdf">Riemannian Change Point Detection on Manifolds with Robust Centroid Estimation</a>.
 
 Steps:
 
